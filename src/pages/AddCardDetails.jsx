@@ -31,8 +31,6 @@ const AddCardDetails = () => {
       console.log("result", result);
       result.json().then((res) => {
         console.log(res);
-
-        
       });
     });
   };

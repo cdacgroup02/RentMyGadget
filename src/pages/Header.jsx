@@ -1,22 +1,16 @@
 import { Link } from "react-router-dom";
 import RoleNav from "./RoleNav";
-import logo from "../images/e_logo.png";
+
 
 const Header = () => {
   return (
     <div>
       <nav class="navbar  navbar-expand-lg custom-bg text-color">
         <div class="container-fluid text-color">
-          <img
-            src={logo}
-            width="35"
-            height="35"
-            class="d-inline-block align-top"
-            alt=""
-          />
+          
           <Link to="/" class="navbar-brand">
             <i>
-              <b className="text-color">Online Shopping</b>
+              <b className="text-color">RentMyGadget</b>
             </i>
           </Link>
 

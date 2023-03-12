@@ -29,7 +29,7 @@ const AddUserForm = () => {
       },
       body: JSON.stringify(user),
     }).then((result) => {
-      console.log("******near toast thing");
+      // console.log("******near toast thing");
       toast.success("Registered Successfully!!!", {
         position: "top-center",
         autoClose: 1000,
@@ -57,7 +57,7 @@ const AddUserForm = () => {
       <div class="mt-2 d-flex aligns-items-center justify-content-center ms-2 me-2 mb-2">
         <div
           class="card form-card border-color text-color custom-bg"
-          style={{ width: "25rem" }}
+          style={{ width: "700px" }}
         >
           <div className="card-header bg-color custom-bg-text text-center">
             <h5 class="card-title">Add User</h5>
@@ -76,7 +76,7 @@ const AddUserForm = () => {
                   <option value="0">Select Role</option>
                   <option value="Admin"> Admin </option>
                   <option value="Customer"> Customer </option>
-                  <option value="Delivery"> Delivery Person </option>
+               
                 </select>
               </div>
 

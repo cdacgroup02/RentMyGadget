@@ -38,6 +38,7 @@ const MyCart = () => {
     );
 
     console.log(response);
+    ;
   };
 
   const checkout = (e) => {

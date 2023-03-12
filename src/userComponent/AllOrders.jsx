@@ -50,17 +50,13 @@ const AllOrders = () => {
                   <th scope="col">Name</th>
                   <th scope="col">Description</th>
                   <th scope="col">Quantity</th>
-                  <th scope="col">Total Price</th>
+                  <th scope="col">Total Rent</th>
                   <th scope="col">Customer Name</th>
                   <th scope="col">Street</th>
                   <th scope="col">City</th>
                   <th scope="col">Pin code</th>
                   <th scope="col">Mobile No.</th>
                   <th scope="col">Order Date</th>
-                  <th scope="col">Delivery Date</th>
-                  <th scope="col">Delivery Status</th>
-                  <th scope="col">Delivery Person</th>
-                  <th scope="col">Delivery Mobile No</th>
                 </tr>
               </thead>
               <tbody>
@@ -114,18 +110,7 @@ const AllOrders = () => {
                       <td>
                         <b>{orderData.orderDate}</b>
                       </td>
-                      <td>
-                        <b>{orderData.deliveryDate}</b>
-                      </td>
-                      <td>
-                        <b>{orderData.deliveryStatus}</b>
-                      </td>
-                      <td>
-                        <b>{orderData.deliveryPersonName}</b>
-                      </td>
-                      <td>
-                        <b>{orderData.deliveryPersonContact}</b>
-                      </td>
+                      
                     </tr>
                   );
                 })}

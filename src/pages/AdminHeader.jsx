@@ -45,8 +45,17 @@ const AdminHeader = () => {
           <b className="text-color">All Orders</b>
         </Link>
       </li>
-
       <li class="nav-item">
+        <Link to="/deleteproduct" class="nav-link active" aria-current="page">
+          <b className="text-color">Delete Product</b>
+        </Link>
+      </li>
+      <li class="nav-item">
+        <Link to="/deleteUser" class="nav-link active" aria-current="page">
+          <b className="text-color">Delete User</b>
+        </Link>
+      </li>
+      {/* <li class="nav-item">
         <Link
           to="/user/admin/assigndelivery"
           class="nav-link active"
@@ -54,7 +63,7 @@ const AdminHeader = () => {
         >
           <b className="text-color">Assign Order Delivery</b>
         </Link>
-      </li>
+      </li> */}
 
       <li class="nav-item">
         <Link

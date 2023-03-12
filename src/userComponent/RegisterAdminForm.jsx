@@ -35,7 +35,7 @@ const RegisterAdminForm = () => {
   return (
     <div>
       <div class="mt-2 d-flex aligns-items-center justify-content-center ms-2 me-2 mb-2">
-        <div class="card form-card border-color" style={{ width: "25rem" }}>
+        <div class="card form-card border-color" style={{ width: "100rem" }}>
           <div className="card-header bg-color">
             <h5 class="card-title">Add Admin</h5>
           </div>

@@ -1,54 +1,54 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#FDF1E7
+  background-color: #ffffff;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 .custom-bg {
-  background-color: #FDF1E7;
-} 
+  background-color: #74eddb;
+}
 
 .text-color {
-  color:#25493F;
+  color: #000000;
 }
 
 .border-color {
-  border-color: #25493F;
+  border-color: #01959a;
 }
 
 .custom-bg-text {
-  color:#FDF1E7;
+  color: #f8e8e8;
 }
 
 .bg-color {
-  background-color: #25493F;
+  background-color: #01959a;
 }
 
 .rounded-card {
-  padding: 1.5em .5em .5em;
+  padding: 1.5em 0.5em 0.5em;
   border-radius: 2em;
-  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 5px 10px rgba(9, 5, 5, 0.2);
 }
 
 .form-card {
-  padding: .2em .2em .2em;
+  padding: 0.2em 0.2em 0.2em;
   border-radius: 1em;
-  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 5px 10px rgba(28, 16, 16, 0.2);
 }
 
 .card {
   transition: transform 0.2s ease;
 }
 
-.card:hover .product-card  {
+.card:hover .product-card {
   transform: scale(1.02);
 }

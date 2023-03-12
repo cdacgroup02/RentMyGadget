@@ -10,6 +10,7 @@ const CategoryNavigator = (category) => {
       }}
       className="text-color"
     >
+     
       <b>
         {" "}
         <i>{category.item.title}</i>

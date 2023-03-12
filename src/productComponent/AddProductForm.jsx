@@ -24,7 +24,7 @@ const AddProductForm = () => {
   const [product, setProduct] = useState({
     title: "",
     description: "",
-    price: "",
+    rent: "",
     quantity: "",
     categoryId: "",
   });
@@ -38,7 +38,7 @@ const AddProductForm = () => {
     formData.append("image", selectedPhoto);
     formData.append("title", product.title);
     formData.append("description", product.description);
-    formData.append("price", product.price);
+    formData.append("price", product.rent);
     formData.append("quantity", product.quantity);
     formData.append("categoryId", product.categoryId);
 
@@ -128,16 +128,16 @@ const AddProductForm = () => {
               </div>
 
               <div class="mb-3">
-                <label for="price" class="form-label">
-                  <b>Product Price</b>
+                <label for="rent" class="form-label">
+                  <b>Product rent</b>
                 </label>
                 <input
                   type="number"
                   class="form-control"
-                  id="price"
-                  name="price"
+                  id="rent"
+                  name="rent"
                   onChange={handleInput}
-                  value={product.price}
+                  value={product.rent}
                 />
               </div>
 

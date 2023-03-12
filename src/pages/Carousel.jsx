@@ -1,5 +1,8 @@
-import carousel1 from "../images/carousel_1.jpeg";
-
+import ps5 from "../images/PS5.jpg";
+import laptop from "../images/Laptop.png";
+import camera from "../images/Camera1.jpg";
+import "../style/carousel.css"
+ 
 const Carousel = () => {
   return (
     <div
@@ -31,13 +34,13 @@ const Carousel = () => {
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src={carousel1} class="d-block w-100" alt="..." />
+          <img src={ps5} class="img-fluid" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src={carousel1} class="d-block w-100" alt="..." />
+          <img src={laptop} class="img-fluid" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src={carousel1} class="d-block w-100" alt="..." />
+          <img src={camera} class="d-block w-100" alt="..." />
         </div>
       </div>
       <button
